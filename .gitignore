@@ -13,7 +13,7 @@ nppBackup
 
 # Models
 model/*
-gpu
+gpu/
 
 # Python
 
@@ -22,5 +22,4 @@ __pycache__/
 */poetry.lock
 poetry.toml
 
-build/
 logs/

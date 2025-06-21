@@ -15,7 +15,6 @@ class ModelArgs:
     n_heads: int = 20
     ffn_dim: int = 6912
 
-
 class TransformerBlock(nn.Module):
     def __init__(self, args: ModelArgs) -> None:
         super().__init__()

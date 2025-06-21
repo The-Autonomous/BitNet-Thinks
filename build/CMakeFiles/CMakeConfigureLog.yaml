@@ -1,0 +1,1023 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: F:/LLVM/bin/clang-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      The C compiler identification is Clang, found in:
+        F:/CalebCode/2025/Bitnet/build/CMakeFiles/4.0.3/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1322 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        Note: including file: .\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: F:/LLVM/bin/clang-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        F:/CalebCode/2025/Bitnet/build/CMakeFiles/4.0.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1322 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: .\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-vd8812"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-vd8812"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-vd8812'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_86088
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_86088.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_86088.dir\\ -c -- C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_86088.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_86088.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_86088.exe /implib:cmTC_86088.lib /pdb:cmTC_86088.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': F:/LLVM/bin/lld-link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "F:/LLVM/bin/lld-link.exe" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "F:/LLVM/bin/lld-link.exe" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "F:/LLVM/bin/lld-link.exe" "--version"
+      LLD 20.1.7
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-cy0eh5"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-cy0eh5"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-cy0eh5'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_b0509
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b0509.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_b0509.dir\\ -c -- C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_b0509.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_b0509.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_b0509.exe /implib:cmTC_b0509.lib /pdb:cmTC_b0509.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': F:/LLVM/bin/lld-link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "F:/LLVM/bin/lld-link.exe" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "F:/LLVM/bin/lld-link.exe" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "F:/LLVM/bin/lld-link.exe" "--version"
+      LLD 20.1.7
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake:124 (_record_compiler_features_cxx)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-hucebo"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-hucebo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-hucebo'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_755ef
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /showIncludes /FoCMakeFiles\\cmTC_755ef.dir\\feature_tests.cxx.obj /FdCMakeFiles\\cmTC_755ef.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hucebo\\feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_755ef.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_755ef.dir\\feature_tests.cxx.obj  /out:cmTC_755ef.exe /implib:cmTC_755ef.lib /pdb:cmTC_755ef.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake:132 (_record_compiler_features_cxx)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xzkqaa"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xzkqaa"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xzkqaa'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_4d4fb
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4d4fb.dir\\feature_tests.cxx.obj /FdCMakeFiles\\cmTC_4d4fb.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xzkqaa\\feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_4d4fb.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_4d4fb.dir\\feature_tests.cxx.obj  /out:cmTC_4d4fb.exe /implib:cmTC_4d4fb.lib /pdb:cmTC_4d4fb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ujo1oh"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ujo1oh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ujo1oh'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_53858
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_53858.dir\\src.c.obj /FdCMakeFiles\\cmTC_53858.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujo1oh\\src.c
+        FAILED: CMakeFiles/cmTC_53858.dir/src.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_53858.dir\\src.c.obj /FdCMakeFiles\\cmTC_53858.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujo1oh\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujo1oh\\src.c(1,10): fatal error: 'pthread.h' file not found
+            1 | #include <pthread.h>
+              |          ^~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-oaizdv"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-oaizdv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-oaizdv'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_2965c
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_2965c.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_2965c.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oaizdv\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_2965c.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_2965c.dir\\CheckFunctionExists.c.obj  /out:cmTC_2965c.exe /implib:cmTC_2965c.lib /pdb:cmTC_2965c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_2965c.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_2965c.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_2965c.dir\\CheckFunctionExists.c.obj  /out:cmTC_2965c.exe /implib:cmTC_2965c.lib /pdb:cmTC_2965c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_2965c.dir\\CheckFunctionExists.c.obj /out:cmTC_2965c.exe /implib:cmTC_2965c.lib /pdb:cmTC_2965c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2965c.dir/intermediate.manifest CMakeFiles\\cmTC_2965c.dir/manifest.res" failed (exit code 1) with the following output:
+        lld-link: error: could not open 'pthreads.lib': no such file or directory\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-9kq7kh"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-9kq7kh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-9kq7kh'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_f2761
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_f2761.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_f2761.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9kq7kh\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_f2761.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_f2761.dir\\CheckFunctionExists.c.obj  /out:cmTC_f2761.exe /implib:cmTC_f2761.lib /pdb:cmTC_f2761.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_f2761.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_f2761.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_f2761.dir\\CheckFunctionExists.c.obj  /out:cmTC_f2761.exe /implib:cmTC_f2761.lib /pdb:cmTC_f2761.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_f2761.dir\\CheckFunctionExists.c.obj /out:cmTC_f2761.exe /implib:cmTC_f2761.lib /pdb:cmTC_f2761.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f2761.dir/intermediate.manifest CMakeFiles\\cmTC_f2761.dir/manifest.res" failed (exit code 1) with the following output:
+        lld-link: error: could not open 'pthread.lib': no such file or directory\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-e8br49"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-e8br49"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-e8br49'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_c668f
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -fopenmp=libomp /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_c668f.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_c668f.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8br49\\OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_c668f.dir/OpenMPTryFlag.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -fopenmp=libomp /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_c668f.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_c668f.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8br49\\OpenMPTryFlag.c
+        clang-cl: warning: unknown argument ignored in clang-cl: '-fopenmp=libomp' [-Wunknown-argument]
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8br49\\OpenMPTryFlag.c(7,4): error: "_OPENMP not defined!"
+            7 | #  error "_OPENMP not defined!"
+              |    ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xkueid"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xkueid"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xkueid'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_317b7
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -fopenmp=libiomp5 /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_317b7.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_317b7.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xkueid\\OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_317b7.dir/OpenMPTryFlag.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -fopenmp=libiomp5 /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_317b7.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_317b7.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xkueid\\OpenMPTryFlag.c
+        clang-cl: warning: unknown argument ignored in clang-cl: '-fopenmp=libiomp5' [-Wunknown-argument]
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xkueid\\OpenMPTryFlag.c(7,4): error: "_OPENMP not defined!"
+            7 | #  error "_OPENMP not defined!"
+              |    ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-re3beh"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-re3beh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-re3beh'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_4acf8
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -fopenmp /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_4acf8.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_4acf8.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-re3beh\\OpenMPTryFlag.c
+        FAILED: CMakeFiles/cmTC_4acf8.dir/OpenMPTryFlag.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -fopenmp /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_4acf8.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_4acf8.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-re3beh\\OpenMPTryFlag.c
+        clang-cl: warning: unknown argument ignored in clang-cl '-fopenmp'; did you mean '-openmp'? [-Wunknown-argument]
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-re3beh\\OpenMPTryFlag.c(7,4): error: "_OPENMP not defined!"
+            7 | #  error "_OPENMP not defined!"
+              |    ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-45qviv"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-45qviv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-45qviv'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_ee03e
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -Xclang -fopenmp /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_ee03e.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_ee03e.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45qviv\\OpenMPTryFlag.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_ee03e.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_ee03e.dir\\OpenMPTryFlag.c.obj  /out:cmTC_ee03e.exe /implib:cmTC_ee03e.lib /pdb:cmTC_ee03e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ee03e.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_ee03e.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_ee03e.dir\\OpenMPTryFlag.c.obj  /out:cmTC_ee03e.exe /implib:cmTC_ee03e.lib /pdb:cmTC_ee03e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_ee03e.dir\\OpenMPTryFlag.c.obj /out:cmTC_ee03e.exe /implib:cmTC_ee03e.lib /pdb:cmTC_ee03e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ee03e.dir/intermediate.manifest CMakeFiles\\cmTC_ee03e.dir/manifest.res" failed (exit code 1) with the following output:
+        lld-link: error: undefined symbol: omp_get_max_threads\x0d
+        >>> referenced by F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45qviv\\OpenMPTryFlag.c:5\x0d
+        >>>               CMakeFiles\\cmTC_ee03e.dir\\OpenMPTryFlag.c.obj:(main)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ygx54q"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ygx54q"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ygx54q'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_ca7d3
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -fopenmp=libomp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ca7d3.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_ca7d3.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygx54q\\OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_ca7d3.dir/OpenMPTryFlag.cpp.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -fopenmp=libomp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ca7d3.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_ca7d3.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygx54q\\OpenMPTryFlag.cpp
+        clang-cl: warning: unknown argument ignored in clang-cl: '-fopenmp=libomp' [-Wunknown-argument]
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygx54q\\OpenMPTryFlag.cpp(7,4): error: "_OPENMP not defined!"
+            7 | #  error "_OPENMP not defined!"
+              |    ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-yrvphm"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-yrvphm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-yrvphm'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_234bc
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -fopenmp=libiomp5 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_234bc.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_234bc.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrvphm\\OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_234bc.dir/OpenMPTryFlag.cpp.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -fopenmp=libiomp5 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_234bc.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_234bc.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrvphm\\OpenMPTryFlag.cpp
+        clang-cl: warning: unknown argument ignored in clang-cl: '-fopenmp=libiomp5' [-Wunknown-argument]
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrvphm\\OpenMPTryFlag.cpp(7,4): error: "_OPENMP not defined!"
+            7 | #  error "_OPENMP not defined!"
+              |    ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-yxpgqq"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-yxpgqq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-yxpgqq'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_ea88e
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -fopenmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea88e.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_ea88e.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxpgqq\\OpenMPTryFlag.cpp
+        FAILED: CMakeFiles/cmTC_ea88e.dir/OpenMPTryFlag.cpp.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -fopenmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea88e.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_ea88e.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxpgqq\\OpenMPTryFlag.cpp
+        clang-cl: warning: unknown argument ignored in clang-cl '-fopenmp'; did you mean '-openmp'? [-Wunknown-argument]
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxpgqq\\OpenMPTryFlag.cpp(7,4): error: "_OPENMP not defined!"
+            7 | #  error "_OPENMP not defined!"
+              |    ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:157 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-87aseu"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-87aseu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-87aseu'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_faffa
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -Xclang -fopenmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_faffa.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_faffa.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87aseu\\OpenMPTryFlag.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_faffa.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_faffa.dir\\OpenMPTryFlag.cpp.obj  /out:cmTC_faffa.exe /implib:cmTC_faffa.lib /pdb:cmTC_faffa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_faffa.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_faffa.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_faffa.dir\\OpenMPTryFlag.cpp.obj  /out:cmTC_faffa.exe /implib:cmTC_faffa.lib /pdb:cmTC_faffa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_faffa.dir\\OpenMPTryFlag.cpp.obj /out:cmTC_faffa.exe /implib:cmTC_faffa.lib /pdb:cmTC_faffa.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_faffa.dir/intermediate.manifest CMakeFiles\\cmTC_faffa.dir/manifest.res" failed (exit code 1) with the following output:
+        lld-link: error: undefined symbol: omp_get_max_threads\x0d
+        >>> referenced by F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87aseu\\OpenMPTryFlag.cpp:5\x0d
+        >>>               CMakeFiles\\cmTC_faffa.dir\\OpenMPTryFlag.cpp.obj:(main)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:80 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_AVX_1"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-k2y2n4"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-k2y2n4"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-k2y2n4'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_ef855
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_ef855.dir\\src.c.obj /FdCMakeFiles\\cmTC_ef855.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k2y2n4\\src.c
+        FAILED: CMakeFiles/cmTC_ef855.dir/src.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_ef855.dir\\src.c.obj /FdCMakeFiles\\cmTC_ef855.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k2y2n4\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k2y2n4\\src.c(5,16): warning: variable 'a' set but not used [-Wunused-but-set-variable]
+            5 |         __m256 a;
+              |                ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k2y2n4\\src.c(6,13): error: always_inline function '_mm256_set1_ps' requires target feature 'avx', but would be inlined into function 'main' that is compiled without support for 'avx'
+            6 |         a = _mm256_set1_ps(0);
+              |             ^
+        1 warning and 1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "HAS_AVX_1_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:80 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_AVX_2"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-rl1gjy"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-rl1gjy"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-rl1gjy'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_9df76
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX_2  /DWIN32 /D_WINDOWS /W3 /arch:AVX /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_9df76.dir\\src.c.obj /FdCMakeFiles\\cmTC_9df76.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rl1gjy\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rl1gjy\\src.c(5,16): warning: variable 'a' set but not used [-Wunused-but-set-variable]
+            5 |         __m256 a;
+              |                ^
+        1 warning generated.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_9df76.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_9df76.dir\\src.c.obj  /out:cmTC_9df76.exe /implib:cmTC_9df76.lib /pdb:cmTC_9df76.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:87 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_AVX2_1"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-y3to1r"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-y3to1r"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX2_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-y3to1r'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_2ca7d
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX2_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_2ca7d.dir\\src.c.obj /FdCMakeFiles\\cmTC_2ca7d.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3to1r\\src.c
+        FAILED: CMakeFiles/cmTC_2ca7d.dir/src.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX2_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_2ca7d.dir\\src.c.obj /FdCMakeFiles\\cmTC_2ca7d.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3to1r\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3to1r\\src.c(8,30): warning: variable 'x' is uninitialized when used here [-Wuninitialized]
+            8 |         _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+              |                              ^
+        F:\\LLVM\\lib\\clang\\20\\include\\avxintrin.h(2073,61): note: expanded from macro '_mm256_extract_epi64'
+         2073 |   ((long long)__builtin_ia32_vec_ext_v4di((__v4di)(__m256i)(X), (int)(N)))
+              |                                                             ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3to1r\\src.c(7,9): note: variable 'x' is declared here
+            7 |         __m256i x;
+              |         ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3to1r\\src.c(6,13): error: always_inline function '_mm256_abs_epi16' requires target feature 'avx2', but would be inlined into function 'main' that is compiled without support for 'avx2'
+            6 |         a = _mm256_abs_epi16(a);
+              |             ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3to1r\\src.c(8,9): error: '__builtin_ia32_vec_ext_v4di' needs target feature avx
+            8 |         _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+              |         ^
+        F:\\LLVM\\lib\\clang\\20\\include\\avxintrin.h(2073,15): note: expanded from macro '_mm256_extract_epi64'
+         2073 |   ((long long)__builtin_ia32_vec_ext_v4di((__v4di)(__m256i)(X), (int)(N)))
+              |               ^
+        1 warning and 2 errors generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "HAS_AVX2_1_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:87 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_AVX2_2"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xwhi9h"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xwhi9h"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX2_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-xwhi9h'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_87fd3
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX2_2  /DWIN32 /D_WINDOWS /W3 /arch:AVX2 /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_87fd3.dir\\src.c.obj /FdCMakeFiles\\cmTC_87fd3.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhi9h\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhi9h\\src.c(8,30): warning: variable 'x' is uninitialized when used here [-Wuninitialized]
+            8 |         _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+              |                              ^
+        F:\\LLVM\\lib\\clang\\20\\include\\avxintrin.h(2073,61): note: expanded from macro '_mm256_extract_epi64'
+         2073 |   ((long long)__builtin_ia32_vec_ext_v4di((__v4di)(__m256i)(X), (int)(N)))
+              |                                                             ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhi9h\\src.c(7,9): note: variable 'x' is declared here
+            7 |         __m256i x;
+              |         ^
+        1 warning generated.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_87fd3.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_87fd3.dir\\src.c.obj  /out:cmTC_87fd3.exe /implib:cmTC_87fd3.lib /pdb:cmTC_87fd3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX2_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:88 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_FMA_1"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-37rcr5"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-37rcr5"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_FMA_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-37rcr5'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_2023c
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_FMA_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_2023c.dir\\src.c.obj /FdCMakeFiles\\cmTC_2023c.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37rcr5\\src.c
+        FAILED: CMakeFiles/cmTC_2023c.dir/src.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_FMA_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_2023c.dir\\src.c.obj /FdCMakeFiles\\cmTC_2023c.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37rcr5\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37rcr5\\src.c(5,22): error: always_inline function '_mm256_setzero_ps' requires target feature 'avx', but would be inlined into function 'main' that is compiled without support for 'avx'
+            5 |         __m256 acc = _mm256_setzero_ps();
+              |                      ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37rcr5\\src.c(6,26): error: always_inline function '_mm256_setzero_ps' requires target feature 'avx', but would be inlined into function 'main' that is compiled without support for 'avx'
+            6 |         const __m256 d = _mm256_setzero_ps();
+              |                          ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37rcr5\\src.c(7,26): error: always_inline function '_mm256_setzero_ps' requires target feature 'avx', but would be inlined into function 'main' that is compiled without support for 'avx'
+            7 |         const __m256 p = _mm256_setzero_ps();
+              |                          ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37rcr5\\src.c(8,15): error: always_inline function '_mm256_fmadd_ps' requires target feature 'fma', but would be inlined into function 'main' that is compiled without support for 'fma'
+            8 |         acc = _mm256_fmadd_ps( d, p, acc );
+              |               ^
+        4 errors generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "HAS_FMA_1_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:88 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_FMA_2"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-gd1xb7"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-gd1xb7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_FMA_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-gd1xb7'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_c9bd7
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_FMA_2  /DWIN32 /D_WINDOWS /W3 /arch:AVX2 /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_c9bd7.dir\\src.c.obj /FdCMakeFiles\\cmTC_c9bd7.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gd1xb7\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_c9bd7.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_c9bd7.dir\\src.c.obj  /out:cmTC_c9bd7.exe /implib:cmTC_c9bd7.lib /pdb:cmTC_c9bd7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_FMA_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_AVX512_1"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-is465t"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-is465t"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-is465t'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_ed7f3
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX512_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_ed7f3.dir\\src.c.obj /FdCMakeFiles\\cmTC_ed7f3.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is465t\\src.c
+        FAILED: CMakeFiles/cmTC_ed7f3.dir/src.c.obj 
+        F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX512_1  /DWIN32 /D_WINDOWS /W3   /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_ed7f3.dir\\src.c.obj /FdCMakeFiles\\cmTC_ed7f3.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is465t\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is465t\\src.c(14,19): warning: unused variable 'equality_mask' [-Wunused-variable]
+           14 |         __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+              |                   ^~~~~~~~~~~~~
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is465t\\src.c(5,21): error: always_inline function '_mm512_set_epi8' requires target feature 'avx512f', but would be inlined into function 'main' that is compiled without support for 'avx512f'
+            5 |         __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+              |                     ^
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is465t\\src.c(14,35): error: '__builtin_ia32_cmpb512_mask' needs target feature avx512bw,evex512
+           14 |         __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+              |                                   ^
+        F:\\LLVM\\lib\\clang\\20\\include\\avx512bwintrin.h(226,15): note: expanded from macro '_mm512_cmp_epi8_mask'
+          226 |   ((__mmask64)__builtin_ia32_cmpb512_mask((__v64qi)(__m512i)(a), \\
+              |               ^
+        1 warning and 2 errors generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "HAS_AVX512_1_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Users/Caleb/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "3rdparty/llama.cpp/ggml/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "3rdparty/llama.cpp/ggml/src/CMakeLists.txt:1163 (include)"
+    checks:
+      - "Performing Test HAS_AVX512_2"
+    directories:
+      source: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ci50q7"
+      binary: "F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ci50q7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "F:/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/CalebCode/2025/Bitnet/3rdparty/llama.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CalebCode/2025/Bitnet/build/CMakeFiles/CMakeScratch/TryCompile-ci50q7'
+        
+        Run Build Command(s): C:/Users/Caleb/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_668dc
+        [1/2] F:\\LLVM\\bin\\clang-cl.exe  /nologo -DHAS_AVX512_2  /DWIN32 /D_WINDOWS /W3 /arch:AVX512 /MDd /Zi /Ob0 /Od /RTC1 /std:c11 /showIncludes /FoCMakeFiles\\cmTC_668dc.dir\\src.c.obj /FdCMakeFiles\\cmTC_668dc.dir\\ -c -- F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci50q7\\src.c
+        F:\\CalebCode\\2025\\Bitnet\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci50q7\\src.c(14,19): warning: unused variable 'equality_mask' [-Wunused-variable]
+           14 |         __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+              |                   ^~~~~~~~~~~~~
+        1 warning generated.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Caleb\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_668dc.dir --rc=F:\\LLVM\\bin\\llvm-rc.exe --mt=F:\\LLVM\\bin\\llvm-mt.exe --manifests  -- F:\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_668dc.dir\\src.c.obj  /out:cmTC_668dc.exe /implib:cmTC_668dc.lib /pdb:cmTC_668dc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+...
