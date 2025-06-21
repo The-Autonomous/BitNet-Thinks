@@ -246,7 +246,13 @@ optional arguments:
 </pre>
 
 ### CPU caching example
-The repository also includes a lightweight PyTorch model for CPU in `cpu/model.py`. It uses `CachedSelfAttention` to store key/value tensors between decoding steps. Call `reset_cache()` before starting a new sequence. A minimal C++ version is provided in `examples/kv_cache_example.cpp` and can be built with CMake:
+The repository also includes a lightweight PyTorch model for CPU in `cpu/model.py`. It uses `CachedSelfAttention` to store key/value tensors between decoding steps. Call `reset_cache()` before starting a new sequence. You can try the model with the demo script:
+
+```bash
+python cpu/main.py path/to/model_state.pt "Hello world"
+```
+
+A minimal C++ version is provided in `examples/kv_cache_example.cpp` and can be built with CMake:
 
 ```bash
 cmake -S examples -B build

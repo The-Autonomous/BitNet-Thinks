@@ -8,12 +8,12 @@ from utils.cache_kv_attention import CachedSelfAttention
 
 @dataclass
 class ModelArgs:
-    """Configuration for the simple CPU Transformer."""
-    vocab_size: int = 50257
-    dim: int = 768
-    n_layers: int = 12
-    n_heads: int = 12
-    ffn_dim: int = 3072
+    """Configuration for the BitNet-b1.58 CPU model."""
+    vocab_size: int = 128256
+    dim: int = 2560
+    n_layers: int = 30
+    n_heads: int = 20
+    ffn_dim: int = 6912
 
 
 class TransformerBlock(nn.Module):
