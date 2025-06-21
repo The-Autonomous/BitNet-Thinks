@@ -1,24 +1,3 @@
-# Extensions
-
-*.a
-*.bat
-*.bin
-*.dll
-*.dot
-*.etag
-*.exe
-*.gcda
-*.gcno
-*.gcov
-*.gguf
-*.gguf.json
-*.lastModified
-*.log
-*.metallib
-*.o
-*.so
-*.tmp
-
 # IDE / OS
 
 .cache/
@@ -33,8 +12,8 @@
 nppBackup
 
 # Models
-models/*
-gpu/checkpoints/*
+model/*
+gpu
 
 # Python
 
